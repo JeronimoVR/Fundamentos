@@ -1,0 +1,48 @@
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  height: 50px;
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background-color: rgb(177, 215, 249);
+  justify-content: space-around;
+  align-items: center;
+padding-inline-start: 5px;
+}
+
+.navbar li {
+  padding: 4px;
+  margin: 4px;
+  box-sizing: border-box;
+  color: #00000000;
+  text-decoration: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 200px;
+  height: 30px; */
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  justify-self: center;
+  align-self: center;
+}
+.navbar li a:hover {
+  text-decoration: none;
+  color: rgb(0, 30, 163);
+  border: 1 solid rgb(59, 124, 132);
+}
+.navbar li:hover {
+  /*background-color: rgb(174, 193, 255);*/
+  border-radius: 1px;
+}
