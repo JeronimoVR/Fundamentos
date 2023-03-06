@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(61, 196, 241);
+}
+h2 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  height: 45px;
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+
+h4 {
+  display: inline-block;
+  width: 45%;
+}
+
+.imagenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 15px;
+}
+
+.imagenes img {
+  width: 60%;
+}
+
+button {
+
+  height: 15px;
+  border: none;
+  background-color: rgb(2, 88, 88);
+}
+
+button a {
+  text-decoration: none;
+  color:#000;
+  padding: 10px;
+  height: 15px;
+}
